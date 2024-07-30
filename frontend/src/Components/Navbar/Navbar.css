@@ -1,0 +1,119 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.navlogo{
+    display:flex;
+    gap: 10px;
+    height: 120px;
+    width: 10px;
+    margin-right: 10px;
+    
+}
+.navhead{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    color: brown;
+    font-size: 30px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #ae7d7d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #f7ec21;
+
+}
+.navlogincart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.navlogincart img{
+    width: 30px;
+}
+.navlogincart button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: 1px solid  #eb688d;
+    border-radius: 15%;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    
+
+}
+
+.navlogincart button:active{
+    background: lightblue;
+}
+
+.nac-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+    
+}
+.addpack button {
+    color: #fbf6f6;
+    background: #c9a9b2;
+    width: 150px;
+    height: 50px;
+    padding: 1px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px; /* Make the button round */
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+
+    /* Optional: Hover effect */
+    &:hover {
+        background-color: #b9919d; /* Darken the background on hover */
+        transform: translateY(-2px); /* Add a slight lift effect */
+    }
+
+    /* Optional: Active effect */
+    &:active {
+        transform: translateY(1px); /* Add a slight press effect */
+    }
+}
+
+
+@media(max-width:1280px){
+    .navbar{
+padding: 12px 50px;}
+}

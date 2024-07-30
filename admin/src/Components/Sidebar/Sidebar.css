@@ -1,0 +1,25 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    color: blueviolet;
+    background: white;
+
+
+}
+.sidebar-item{
+    display: flex;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background: rgb(219, 210, 210);
+    width: 150px;
+    align-items: center;
+    margin-left: 50px;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+}

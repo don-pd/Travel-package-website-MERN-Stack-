@@ -1,0 +1,48 @@
+/* UserProfile.css */
+
+.user-details-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #dc3545;
+}
+
+.user-details-item {
+    margin-bottom: 15px;
+}
+
+.user-details-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.user-details-value {
+    margin-left: 10px;
+    color: #666;
+}
+
+.user-details-value.email {
+    color: #007bff;
+}
+
+.user-details-value.username {
+    color: #28a745;
+}
+
+.user-details-value.usertype {
+    color: #dc3545;
+}
+
+.user-details-value.id {
+    color: #ffc107;
+}

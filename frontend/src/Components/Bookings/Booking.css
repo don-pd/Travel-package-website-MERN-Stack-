@@ -1,0 +1,49 @@
+/* Booking.css */
+
+.user-bookings-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-bookings-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.user-bookings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-bookings-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.approved-yes {
+    color: #28a745;
+}
+
+.approved-no {
+    color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+    .user-bookings-container {
+        width: 90%;
+    }
+}

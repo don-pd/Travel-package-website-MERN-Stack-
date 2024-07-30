@@ -1,0 +1,35 @@
+.uploaded-products-container {
+    margin-top: 20px;
+    
+  }
+
+  .uploaded-products-container h1{
+        
+        color: rgb(119, 100, 81);
+        margin-top: 20px;
+        margin-bottom: 20px;
+  }
+  
+  .uploaded-product-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .product-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .remove-container {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .listproduct-remove-icon {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  

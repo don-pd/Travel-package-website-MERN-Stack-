@@ -1,0 +1,47 @@
+.admin-approval {
+    max-width: 1200px; /* Increased width */
+    margin: 20px auto; /* Increased margin */
+    padding: 40px; /* Increased padding */
+  
+    border-radius: 10px;
+   
+  }
+  
+  .admin-approval h2 {
+    font-size: 24px;
+    margin-bottom: 90px; /* Increased margin bottom */
+  }
+  
+  .admin-approval ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-approval li {
+    margin-bottom: 15px; /* Increased margin bottom */
+    padding: 15px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .admin-approval li button {
+    padding: 8px 15px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .admin-approval li button:hover {
+    background-color: #0056b3;
+  }
+  
+  .admin-approval li button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
